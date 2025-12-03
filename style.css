@@ -34,9 +34,11 @@
   align-items: center;
   border-radius: 10px;
   width: 400px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 .image-container {
+  /* -- check if we can use this style tag */
 }
 
 .image-container > img {
