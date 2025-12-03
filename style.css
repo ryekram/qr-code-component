@@ -1,4 +1,6 @@
 /* ## Colors */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 :root {
   --white: hsl(0, 0%, 100%);
   --slate-300: hsl(212, 45%, 89%);
@@ -12,6 +14,50 @@
   box-sizing: border-box;
 }
 
-body {
+#main {
   font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--slate-300);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  background-color: var(--white);
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.image-container {
+}
+
+.image-container > img {
+  width: 100%;
+  border-radius: 10px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  gap: 1rem;
+  text-align: center;
+}
+
+.text-header {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.subtext {
+  font-size: 1.2rem;
+  /* margin: 1rem; */
+  margin-bottom: 1rem;
+  font-weight: 400;
 }
